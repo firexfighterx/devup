@@ -1,0 +1,10 @@
+immutability is key (don’t lick my candy bar)
+small functions that are defined once and used everywhere
+functions piped together take in functions as parameters to define how rambda uses it.
+Rebel allows you to test out rambda things on their site.
+path => looks for a specific value on an object safely otherwise undefined, pathOr same thing but allows for a default value.
+defaultTo => provides a default value for a value;
+allPass => functions defined with propsEq to make sure a property equals a value. if all are passing function returns true, otherwise false
+anyPass => equal to or statement like allPass
+tap => “tap” into the array of a pipe statement and see what values are before it gets passed along (console.log as an example)
+curry => updates a piece of an object and returns a new one

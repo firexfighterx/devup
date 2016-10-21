@@ -1,0 +1,6 @@
+gulp library is about 50 lines of code
+4 major functions of gulp
+src => takes a glob or regex of a path or file name
+dest => folder where things will be written (structure is maintained)
+task => name of the task and any dependencies
+watch => watches a file, if something changes it runs a task defined

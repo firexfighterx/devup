@@ -34,3 +34,7 @@ use ternarys
 stringly typed (name == 'manager')
 **3 levels of indentation decreases level of comprehension of code**
 return early refactor to return when its not necessary to continue on - reduces nesting
+
+the moment someone disrespects a building is when it becomes a free-for-all
+dont disrespect
+leave it better than they way you found it.

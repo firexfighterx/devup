@@ -1,0 +1,2 @@
+=> node runs on google's v8 engine
+=> always have to program in an asynchronous model

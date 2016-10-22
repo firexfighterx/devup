@@ -1,0 +1,33 @@
+
+7 reasons to care
+
+=> twice as hard to debug then write
+=> its your job
+=> technical debt is depressing
+=> no time to be sloppy
+=> your lazy
+=> dont be a verb (this code has been "Jimmied")
+
+How do you write clean code that is clean and maintainable?
+
+clean code principals
+use the right tool for the job (Dont shove a long box into a sports car to bring it home from the store)
+  =>every tech is eventually evil
+maximize signal to noise ratio
+  => reading code is running it in our heads
+  => the mess builds quitely (no one writes a stored procedure that is 6 pages long)
+  => self documenting code
+    => the name says it all (avoid names like: Go, Complete, Get, Process, Dolt, Start, On_Init, Page_Load, etc)
+  => use the rubber duck to describe a method or a classname
+  => Naming warning signs (And if Or)
+    => ChargeCreditCard should not send emails
+    => GetUser should not create a user's session
+  => AVOID ABBREVIATIONS
+  => Avoid Magnet classes names like: Functions, Utility, WebsiteBO
+    => Specific names === more concise classes
+=> Comments smell
+Assure intent should be refactor to a method
+Dont leave zombie code (code that is commented out)
+dont Litter (leave a comment that says this code is a defect and the date, it can be found in source control)
+assign bools implicitly
+use ternarys
